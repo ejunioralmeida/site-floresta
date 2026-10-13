@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img">
+  <title>Árvore com copa, tronco e raízes</title>
+  <rect width="300" height="300" fill="#e8f4fa"/>
+  <rect y="230" width="300" height="70" fill="#8b6b4a"/>
+  <path d="M140 230 Q120 260 90 275 M160 230 Q180 260 210 275 M150 230 L150 280" stroke="#5a3d22" stroke-width="6" fill="none"/>
+  <rect x="138" y="130" width="24" height="105" fill="#6b4226"/>
+  <circle cx="150" cy="100" r="70" fill="#2f7d32"/>
+  <circle cx="110" cy="120" r="40" fill="#3a8f3d"/>
+  <circle cx="190" cy="120" r="40" fill="#3a8f3d"/>
+</svg>

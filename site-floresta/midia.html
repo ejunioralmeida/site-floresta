@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+  Página de mídia do site.
+  Aqui foi organizado o material visual e sonoro do projeto para tornar a
+  experiência mais imersiva e reforçar a proposta de apresentar a floresta
+  de forma educativa e sensorial.
+-->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galeria e áudio da floresta: imagens ilustrativas e uma paisagem sonora com controles de reprodução.">
+  <title>Mídia – Guardiões da Floresta</title>
+</head>
+<body>
+  <!-- Cabeçalho com navegação entre as páginas do projeto -->
+  <header>
+    <p>Guardiões da Floresta</p>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="especies.html">Espécies</a></li>
+        <li><a href="manejo.html">Manejo Florestal</a></li>
+        <li><a href="midia.html" aria-current="page">Mídia</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal: galeria de imagens e reprodução de áudio -->
+  <main>
+    <h1>Mídia</h1>
+    <p>Nesta página estão as imagens e o áudio do site.</p>
+
+    <!-- Galeria de ilustrações que reforçam o tema visual da estrutura -->
+    <section>
+      <h2>Galeria</h2>
+      <figure>
+        <img src="img/arvore.svg" alt="Ilustração de uma árvore de tronco marrom e copa verde arredondada, com raízes visíveis no solo" width="300" height="300">
+        <figcaption>Figura 1 – Ilustração de uma árvore, com copa, tronco e raízes.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/floresta.svg" alt="Ilustração de uma floresta com várias árvores, céu azul e um rio" width="600" height="320">
+        <figcaption>Figura 2 – Paisagem florestal ilustrada.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Seção de áudio com player nativo do HTML5 e descrição do som -->
+    <section>
+      <h2>Som da floresta</h2>
+      <figure>
+        <figcaption>Paisagem sonora de exemplo (sons sintetizados de vento e pássaros, 10 segundos).</figcaption>
+        <audio controls src="media/floresta.wav">
+          Seu navegador não suporta o elemento de áudio. <a href="media/floresta.wav">Baixe o arquivo de áudio</a>.
+        </audio>
+      </figure>
+      <details>
+        <summary>Descrição do áudio</summary>
+        <p>O áudio reproduz um som suave de vento entre as folhas, com pequenos cantos agudos de pássaros ao longo de dez segundos.</p>
+      </details>
+    </section>
+
+    <!-- Chamada final para a próxima etapa de navegação do site -->
+    <section>
+      <h2>Para continuar</h2>
+      <p>Tem dúvidas ou sugestões? Visite a página de <a href="contato.html">Contato</a>.</p>
+    </section>
+  </main>
+
+  <!-- Rodapé com fechamento da página e links para as demais telas -->
+  <footer>
+    <p>&copy; 2026 Guardiões da Floresta – Trabalho da disciplina Introdução ao Desenvolvimento Web (Avaliação 01).</p>
+    <p>Navegue: <a href="index.html">Início</a> | <a href="especies.html">Espécies</a> | <a href="manejo.html">Manejo</a> | <a href="contato.html">Contato</a></p>
+  </footer>
+</body>
+</html>
